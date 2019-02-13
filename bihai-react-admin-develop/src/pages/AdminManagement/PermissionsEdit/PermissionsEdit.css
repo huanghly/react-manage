@@ -1,0 +1,9 @@
+
+.pe-table-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.pe-table-item {
+    padding: 10px 20px;
+}

@@ -1,0 +1,52 @@
+.edit-input-view {
+    width: 200px;
+}
+
+.input-view-half {
+    width: 95px;
+}
+
+.text-explain {
+    flex: 1;
+    margin-left: 10px;
+}
+
+cd-item {
+    background-color: #dc4c3d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.cdtd-item-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cdtc-form-item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.cdtc-input-width {
+    width: 250px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cdtc-note {
+    width: 50%;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+

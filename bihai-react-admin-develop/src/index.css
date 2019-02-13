@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+head-view {
+    height: 120px;
+    background-color: #4b9ad6;
+}
+
+
+
+.ant-advanced-search-form .ant-form-item {
+    display: flex;
+}
+
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+    flex: 1;
+}
+
+

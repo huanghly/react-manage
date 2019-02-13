@@ -1,0 +1,23 @@
+.oapi-center {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.oapi-center-item-row {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.item-right {
+    width: 200px;
+
+    text-align: right;
+}
+
+.item-left {
+    margin-left: 15px;
+}

@@ -1,0 +1,70 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px;
+
+}
+
+.width-120 {
+    width: 120px;
+}
+
+.login-top-view {
+    position: absolute;
+    top: 50px;
+    left: 106px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-top-text {
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+}
+
+.login-view {
+    position: absolute;
+    right: 210px;
+    width: 544px;
+    height: 558px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.login-img-logo {
+    width: 42px;
+    height: 48px;
+}
+
+.login-img-bg {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 121px;;
+}
+
+.login-btn {
+    color: #dc4c3d;
+    background-color: #330a93;
+}

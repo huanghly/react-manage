@@ -1,0 +1,27 @@
+.list-item {
+    flex: 1;
+    height: 60px;
+    flex-direction: row;
+    display: flex;
+}
+
+.list-key {
+    text-align: right;
+    flex: 1;
+    minWidth: 50px;
+    /*text-align: justify;*/
+    /*text-align-last: justify*/
+
+}
+
+.list-value {
+    flex: 2;
+    margin-left: 15px;
+    minWidth: 8px
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}

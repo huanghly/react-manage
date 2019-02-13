@@ -1,0 +1,131 @@
+html, body, #root, .App {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+body,
+html {
+    position: fixed;
+    width: 100%;
+}
+
+h1, h2, h3, p, i {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition-delay: 9999s;
+    -webkit-transition: color 9999s ease-out, background-color 9999s ease-out;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.history-tag {
+    min-width: 0.46rem;
+    padding: 0 0.08rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14px;
+    font-size: 12px;
+    border: 1px solid;
+    margin-left: 5px;
+}
+
+.history-tag.red {
+    color: rgb(220, 76, 61);
+    border-color: rgb(220, 76, 61);
+}
+
+.history-tag.blue {
+    color: rgb(75, 154, 214);
+    border-color: rgb(75, 154, 214);
+}
+
+.history-tag.gray {
+    color: rgb(163, 163, 163);
+    border-color: rgb(163, 163, 163);
+}
+
+.am-modal.am-modal-transparent {
+    width: 94% !important;
+}
+
+.ant-advanced-search-form {
+    background: #f8f8f8;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+}
+
+.ant-advanced-search-form .ant-form-item {
+    display: flex;
+}
+
+.ant-advanced-search-form .ant-form-item-control-wrapper {
+    flex: 1;
+}
+
+.edit-view-center {
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border: solid #cccccc 1px;
+    border-radius: 5px;
+
+}
+
+.edit-view {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+}
+
+.edit-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-border {
+    border-radius: 5px;
+    border: solid #acacad 1px;
+}
+
+.edit-top {
+    margin: 0 auto;
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
